@@ -3,12 +3,12 @@ import React from 'react'
 export default function SignUp() {
   return (
     <div className='flex h-screen w-screen flex-col items-center mt-10'>
-      <div className=''>
+      <div className='w-96'>
         <img className='h-20 w-80' src="./assets/icons/full-logo.svg" alt="" />
       </div>
 
       <div className="mt-10 ml-5 mb-10 w-80">
-        <h1 className="font-bold text-3xl  mb-4">Sign Up</h1>
+        <h1 className="font-bold text-3xl  mb-4">Sign up</h1>
         <small>Create a free account in 2 minutes and you can also access to the
           <span>user guide here.</span>
         </small>
@@ -65,11 +65,11 @@ export default function SignUp() {
             <p class="text-xs italic">Must be at least 8 characters.</p>
           </div>
 
-          <div class="w-full px-3 mb-6">
+          <div class="w-full px-3 mb-6 text-center">
             <button class="bg-[#1A6002] w-full text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
               Create account
           </button>
-          <small className='block mt-6 content-center'>
+          <small className='block mt-6'>
             Already have an account?
             <a class="inline-block align-baseline font-bold text-sm text-[#345447] ml-2" href="/login">
               Sign in

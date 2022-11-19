@@ -8,7 +8,7 @@ export default function Login() {
       </div>
 
       <div className="mt-10 ml-5 mb-10 w-80">
-        <h1 className="font-bold text-3xl  mb-4">Sign ip</h1>
+        <h1 className="font-bold text-3xl  mb-4">Sign in</h1>
       </div>
 
       <div className='w-80'>
@@ -40,7 +40,7 @@ export default function Login() {
           <small className='block mt-6'>
             No account?
             <a class="inline-block align-baseline font-bold text-sm text-[#345447] ml-2" href="/login">
-              Sign in
+              Sign up
             </a>
           </small>
           </div>

@@ -1,8 +1,10 @@
+import SignUp from './pages/SignUp/SignUp';
 
 function App() {
+ 
   return (
-    <div className="App bg-background h-screen">
-      <p>Welcome</p>
+    <div className="">
+      <SignUp />
     </div>
   );
 }

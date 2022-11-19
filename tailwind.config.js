@@ -7,6 +7,8 @@ module.exports = {
     extend: {
       colors: {
         white: '#ffffff',
+        button: '#1A6002',
+        text: '#345447',
         background: '#4C635E'
       }
     },

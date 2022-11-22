@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Login() {
   return (
@@ -12,36 +13,34 @@ export default function Login() {
       </div>
 
       <div className='w-80'>
-        <form class="">
+        <form className="">
          
-          <div class="w-full px-3 mb-6 md:mb-0">
-            <label class="block tracking-wide text-base text-gray-700 mb-2" for="grid-first-name">
+          <div className="w-full px-3 mb-6 md:mb-0">
+            <label className="block tracking-wide text-base text-gray-700 mb-2" for="grid-first-name">
               Email
             </label>
-            <input class="appearance-none block w-full text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white hover:outline-[#1A6002]"
+            <input className="appearance-none block w-full text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white hover:outline-[#1A6002]"
             type="email" 
             placeholder="Enter your email" />
           </div>
 
-          <div class="w-full px-3 mb-6">
-            <label class="block tracking-wide text-base text-gray-700 mb-2">
+          <div className="w-full px-3 mb-6">
+            <label className="block tracking-wide text-base text-gray-700 mb-2">
               Password
             </label>
-            <input class="appearance-none block w-full text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:ring focus:border-[#1A6002]"
+            <input className="appearance-none block w-full text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:ring focus:border-[#1A6002]"
             type="password" 
             placeholder="Create a password" />
-            <p class="text-xs italic">Must be at least 8 characters.</p>
+            <p className="text-xs italic">Must be at least 8 characters.</p>
           </div>
 
-          <div class="w-full px-3 mb-6 text-center">
-            <button class="bg-[#1A6002] w-full text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+          <div className="w-full px-3 mb-6 text-center">
+            <button className="bg-[#1A6002] w-full text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
               Create account
           </button>
           <small className='block mt-6'>
             No account?
-            <a class="inline-block align-baseline font-bold text-sm text-[#345447] ml-2" href="/login">
-              Sign up
-            </a>
+            <Link className="inline-block align-baseline font-bold text-sm text-[#345447] ml-2" to='/signup'>Sign up</Link>
           </small>
           </div>
         </form>
